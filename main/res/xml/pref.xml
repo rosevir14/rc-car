@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+            
+	
+	<PreferenceCategory
+ 		android:key="pref_Camera"
+ 		android:title="Camera settings"
+ 		android:summary="Camera settings">
+		 
+		<EditTextPreference
+			 android:key="pref_camURL"
+			 android:title="Camera View URL"
+			 android:summary="Camera View URL-address"
+			 android:defaultValue="@+string/default_camURL" />				
+	</PreferenceCategory>
+
+</PreferenceScreen>

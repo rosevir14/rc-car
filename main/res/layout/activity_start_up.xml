@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rosevir.finaleeeee.StartUpActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgLogo"
+        android:src="@drawable/rccar"
+        android:scaleType = "centerCrop"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="false"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manual"
+        android:id="@+id/btnManual"
+        android:layout_below="@+id/imgLogo"
+        android:layout_toStartOf="@+id/btnAuto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Android Controlled\nToy Car via Wi-Fi"
+        android:id="@+id/txtTitle"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_above="@+id/imgLogo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto Pilot"
+        android:id="@+id/btnAuto"
+        android:layout_below="@+id/imgLogo"
+        android:layout_alignEnd="@+id/txtTitle" />
+
+</RelativeLayout>

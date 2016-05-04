@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.rosevir.finaleeeee.MainActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:id="@+id/Vid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+        </RelativeLayout>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnForward"
+            android:layout_gravity="right|center_vertical"
+            android:scaleType="fitCenter"
+            android:background="#00ffffff"
+            android:src="@drawable/forward" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnBackward"
+            android:layout_gravity="right|bottom"
+            android:scaleType="fitCenter"
+            android:background="#00ffffff"
+            android:src="@drawable/backward" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamRight"
+            android:layout_gravity="left|bottom"
+            android:background="#00ffffff"
+            android:layout_marginBottom="58dp"
+            android:layout_marginLeft="135dp"
+            android:src="@drawable/right"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamDownLeft"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="9dp"
+            android:background="#00ffffff"
+            android:baselineAlignBottom="false"
+            android:src="@drawable/downleft"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamLeft"
+            android:background="#00ffffff"
+            android:layout_marginBottom="58dp"
+            android:layout_marginLeft="7dp"
+            android:layout_gravity="left|bottom"
+            android:scaleType="fitCenter"
+            android:src="@drawable/left" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamCenter"
+            android:background="#00ffffff"
+            android:layout_marginBottom="58dp"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="left|bottom"
+            android:scaleType="fitCenter"
+            android:src="@drawable/center" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamDownRight"
+            android:background="#00ffffff"
+            android:layout_marginLeft="116dp"
+            android:layout_marginBottom="9dp"
+            android:layout_gravity="left|bottom"
+            android:scaleType="fitCenter"
+            android:src="@drawable/downright" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamDown"
+            android:layout_marginStart="70dp"
+            android:background="#00ffffff"
+            android:layout_gravity="left|bottom"
+            android:src="@drawable/down"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamUpRight"
+            android:background="#00ffffff"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="27dp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/upright"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamUpLeft"
+            android:background="#00ffffff"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="27dp"
+            android:layout_gravity="left|center_vertical"
+            android:scaleType="fitCenter"
+            android:src="@drawable/upleft" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnCamUp"
+            android:layout_marginTop="15dp"
+            android:background="#00ffffff"
+            android:layout_marginStart="70dp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/up"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Car: "
+            android:id="@+id/txtCarDirection"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="#00ffffff"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Camera: "
+            android:id="@+id/txtCameraDirection"
+            android:background="#00ffffff"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="44dp" />
+    </FrameLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btnBackMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
